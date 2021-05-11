@@ -1,0 +1,7 @@
+Database menggunakan PostgreSql
+
+Backend menggunakan Express js dan untuk menggunakan JWT npm install jsonwebtoken terlebih dahulu, lalu pakai jwt.sign untuk mengubah data user menjadi token.
+Saat user login ubah token dari user menjadi data dengan jwt.verify.
+
+Frontend menggunakan reactjs dan untuk menampilkan data dari backend menggunkanan axios dengan menginstal npm install axios terlebih dahulu.
+setelah login access_token yang telah di jwt.verify akan di simpan di localstorage.
